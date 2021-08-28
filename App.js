@@ -65,6 +65,7 @@ export default function App() {
       <ImageBackground 
         style={{
           flex: 1,
+          
         }}
         source={require('./assets/background.jpeg')} resizeMode="cover">
       
@@ -72,8 +73,7 @@ export default function App() {
       <ScrollView 
        style={[{
          flex: 1,
-        height: 10,
-        marginBottom: 40,
+        marginBottom: 75,
       }]}
       onContentSizeChange={() => onContentSizeChange}
       scrollEnabled={true}>
@@ -86,10 +86,13 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>Welcome, glad to have you!</Text>
+          <Text style={tw``}>Welcome, glad to have you!</Text>
           <Text style={{
+            marginTop:10,
             color:"#00000073",
-            right: -90,
+            lineHeight: 10,
+            fontSize: 11,
+            right: -100,
           }}> 4:05 PM</Text>
         </View>
 
@@ -99,10 +102,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>Thanks dear!</Text>
+          <Text style={tw``}>Thanks dear!</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:05 PM</Text>
         </View>
 
@@ -111,16 +116,17 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>Here is the screen shot of the snacks!</Text>
+          <Text style={tw``}>Here is the screen shot of the snacks!</Text>
           
            <Image
            style={{ marginLeft: 30, marginTop: 20, width: 75, height: 100, resizeMode: 'contain' }}
             source={{ uri: 'https://links.papareact.com/28w' }}
            />
            <Text style={{
-             marginTop:120,
             color:"#00000073",
-            // right: -90,
+            lineHeight: 10,
+            fontSize: 11,
+            marginTop: 120
           }}> 4:07 PM</Text>
         </View>
 
@@ -132,10 +138,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>Wow! Lovely</Text>
+          <Text style={tw``}>Wow! Lovely</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:08 PM</Text>
         </View>
         <View style={[tw`
@@ -143,10 +151,13 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>Glad you loved it 🥰</Text>
+          <Text style={tw``}>Glad you loved it 🥰</Text>
           <Text style={{
+            marginTop: 10,
             color:"#00000073",
-            right: -90,
+            lineHeight: 10,
+            fontSize: 11,
+            right: -5,
           }}> 4:11 PM</Text>
         </View>
 
@@ -156,10 +167,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>Thats why I love you 😍 😘 😘</Text>
+          <Text style={tw``}>Thats why I love you 😍 😘 😘</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:11 PM</Text>
         </View>
         <View style={[tw`
@@ -167,11 +180,14 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>Looking forward to writing codes with you 🤣 🤣</Text>
+          <Text style={tw``}>Looking forward to writing codes with you 🤣 🤣</Text>
           <Text style={{
+            marginTop: 10,
             color:"#00000073",
-            right: -90,
-          }}> 4:12 PM</Text>
+            lineHeight: 10,
+            fontSize: 11,
+            right: -100,
+          }}> 4:11 PM</Text>
         </View>
 
         <View style={[tw`
@@ -180,10 +196,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>😒😒🤣🤣</Text>
+          <Text style={tw``}>😒😒🤣🤣</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:13 PM</Text>
         </View>
         
@@ -192,11 +210,14 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>Welcome, glad to have you!</Text>
+          <Text style={tw``}>I am loyal!</Text>
           <Text style={{
+            marginTop: 10,
             color:"#00000073",
-            right: -90,
-          }}> 4:14 PM</Text>
+            lineHeight: 10,
+            fontSize: 11,
+            right: -60,
+          }}> 4:13 PM</Text>
         </View>
 
         <View style={[tw`
@@ -205,10 +226,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>🤣</Text>
+          <Text style={tw``}>🤣</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:15 PM</Text>
         </View>
         
@@ -217,10 +240,13 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>🤣🤣</Text>
+          <Text style={tw``}>🤣🤣</Text>
           <Text style={{
+            marginTop: 10,
             color:"#00000073",
-            right: -90,
+            lineHeight: 10,
+            fontSize: 11,
+            right: -100,
           }}> 4:15 PM</Text>
         </View>
 
@@ -230,10 +256,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>Haha</Text>
+          <Text style={tw``}>Haha</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:15 PM</Text>
         </View>
         
@@ -242,10 +270,13 @@ export default function App() {
         `,{
           backgroundColor: "#dbf8c6"
         }]}>
-          <Text style={tw`font-bold`}>We can do this all day!</Text>
+          <Text style={tw``}>We can do this all day!</Text>
           <Text style={{
+            marginTop: 10,
             color:"#00000073",
-            right: -90,
+            lineHeight: 10,
+            fontSize: 11,
+            right: -100,
           }}> 4:16 PM</Text>
         </View>
 
@@ -255,10 +286,12 @@ export default function App() {
           backgroundColor: "#dbf8c6",
           overflow: "hidden"
         }]}>
-          <Text style={tw`font-bold`}>nn fnfffnfnf nfjfjf  fjfj  fjffdf!</Text>
+          <Text style={tw``}>I am done!</Text>
           <Text style={{
             color:"#00000073",
             right: '-150%',
+            marginTop: 5,
+            fontSize: 11,
           }}> 4:17 PM</Text>
         </View>
         </View>
@@ -281,7 +314,7 @@ export default function App() {
         
           <TextInput
               style={[tw``,styles.input]}
-              placeholder="Type a nmess..."
+              placeholder="Type a mess..."
               underlineColorAndroid="transparent"
           />
           <Icon 
