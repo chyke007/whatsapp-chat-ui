@@ -4,13 +4,6 @@ import tw from 'tailwind-react-native-classnames'
 import chatMessage from '../data/chat'
 
 const Chat = () => {
-  let onContentSizeChange = ( contentHeight) => {
-    this.setState({ screenHeight: contentHeight });
-  };
-
-  const arrow = `
-  import { SvgXml } from 'react-native-svg';
-  `
 
   return (
     <ScrollView 
@@ -18,7 +11,6 @@ const Chat = () => {
          flex: 1,
         marginBottom: 75,
       }]}
-      onContentSizeChange={() => onContentSizeChange}
       scrollEnabled={true}>
       <View>
         {chatMessage.map((chat,i) => (

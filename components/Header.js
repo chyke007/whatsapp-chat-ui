@@ -44,8 +44,7 @@ const Header = () => {
           color="white"
           type="FontAwesome5"
           />
-          <Icon 
-          style={tw``}
+          <Icon
           name='more-vertical'
           color="white"
           type="feather"

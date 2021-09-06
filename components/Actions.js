@@ -17,8 +17,7 @@ const Actions = () => {
      />
      
        <TextInput
-           style={[tw`
-           `,styles.input]}
+           style={styles.input}
            placeholder="Type a mess..."
            underlineColorAndroid="transparent"
        />
